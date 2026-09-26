@@ -1,0 +1,7 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.1
+# Add when you wire up real escrow + off-ramp:
+# web3==6.20.0        # if escrow lives on an EVM chain (Polygon is cheapest for small PHP txns)
+# solana==0.34.0       # if escrow lives on Solana instead
+# sqlmodel==0.0.21     # swap the in-memory dict store for Postgres
