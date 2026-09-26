@@ -19,9 +19,19 @@ This project is built using a modern, decoupled architecture:
 
 ## 🛠️ Getting Started
 
-To run this project locally, ensure you have both the Flutter SDK and a Python 3 environment installed on your machine.
+You'll need the Flutter SDK installed locally (this was written and reviewed
+without a Flutter environment available, so run it once on your machine
+before building further):
 
 **1. Clone the repository**
 ```bash
 git clone [https://github.com/Svintjohn/Aegis-App.git](https://github.com/Svintjohn/Aegis-App.git)
 cd Aegis-App
+```
+##2. How to run this
+
+```bash
+flutter create --org com.aegis --project-name aegis .   
+flutter pub get              
+flutter run -d chrome      
+```
