@@ -31,7 +31,6 @@ cd Aegis-App
 ##2. How to run this
 
 ```bash
-flutter create --org com.aegis --project-name aegis .   
 flutter pub get              
 flutter run -d chrome      
 ```
